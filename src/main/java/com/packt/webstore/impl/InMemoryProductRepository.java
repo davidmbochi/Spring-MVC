@@ -1,6 +1,6 @@
 package com.packt.webstore.impl;
 
-import com.packt.webstore.Domain.Product;
+import com.packt.webstore.domain.Product;
 import com.packt.webstore.exception.ProductNotFoundException;
 import com.packt.webstore.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,7 +9,6 @@ import org.springframework.jdbc.core.RowMapper;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.stereotype.Repository;
 
-import javax.xml.crypto.Data;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.HashMap;

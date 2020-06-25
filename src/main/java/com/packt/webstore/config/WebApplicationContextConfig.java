@@ -1,6 +1,6 @@
 package com.packt.webstore.config;
 
-import com.packt.webstore.Domain.Product;
+import com.packt.webstore.domain.Product;
 import com.packt.webstore.interceptor.ProcessingTimeLogInterceptor;
 import com.packt.webstore.interceptor.PromoCodeInterceptor;
 import com.packt.webstore.validator.ProductValidator;

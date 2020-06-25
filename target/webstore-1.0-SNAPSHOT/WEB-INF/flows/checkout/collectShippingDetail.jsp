@@ -115,12 +115,10 @@
                             name="_eventId_backToCollectCustomerInfo">
                         back
                     </button>
-                    <input type="submit" id="btnAdd" class="btn
-    btn-primary"
+                    <input type="submit" id="btnAdd" class="btn btn-primary"
                            value="Add"
                            name="_eventId_shippingDetailCollected"/>
-                    <button id="btnCancel" class="btn btn-
-    default"
+                    <button id="btnCancel" class="btn btn-default"
                             name="_eventId_cancel">Cancel
                     </button>
                 </div>

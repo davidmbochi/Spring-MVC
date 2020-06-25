@@ -1,6 +1,6 @@
 package com.packt.webstore.validator;
 
-import com.packt.webstore.Domain.Product;
+import com.packt.webstore.domain.Product;
 import com.packt.webstore.exception.ProductNotFoundException;
 import com.packt.webstore.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;

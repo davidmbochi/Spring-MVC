@@ -1,4 +1,4 @@
-package com.packt.webstore.Domain;
+package com.packt.webstore.domain;
 
 import org.springframework.format.annotation.DateTimeFormat;
 

@@ -1,6 +1,6 @@
 package com.packt.webstore.validator;
 
-import com.packt.webstore.Domain.Product;
+import com.packt.webstore.domain.Product;
 import org.springframework.stereotype.Component;
 import org.springframework.validation.Errors;
 import org.springframework.validation.Validator;

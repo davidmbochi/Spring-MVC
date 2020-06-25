@@ -1,6 +1,6 @@
 package com.packt.webstore.repository;
 
-import com.packt.webstore.Domain.Cart;
+import com.packt.webstore.domain.Cart;
 import com.packt.webstore.dto.CartDto;
 
 public interface CartRepository {

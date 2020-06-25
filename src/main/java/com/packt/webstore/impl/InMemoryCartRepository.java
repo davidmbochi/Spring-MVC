@@ -1,8 +1,8 @@
 package com.packt.webstore.impl;
 
-import com.packt.webstore.Domain.Cart;
-import com.packt.webstore.Domain.CartItem;
-import com.packt.webstore.Domain.Product;
+import com.packt.webstore.domain.Cart;
+import com.packt.webstore.domain.CartItem;
+import com.packt.webstore.domain.Product;
 import com.packt.webstore.dto.CartDto;
 import com.packt.webstore.dto.CartItemDto;
 import com.packt.webstore.repository.CartRepository;

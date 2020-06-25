@@ -1,9 +1,9 @@
 package com.packt.webstore.impl;
 
-import com.packt.webstore.Domain.Address;
-import com.packt.webstore.Domain.Customer;
-import com.packt.webstore.Domain.Order;
-import com.packt.webstore.Domain.ShippingDetail;
+import com.packt.webstore.domain.Address;
+import com.packt.webstore.domain.Customer;
+import com.packt.webstore.domain.Order;
+import com.packt.webstore.domain.ShippingDetail;
 import com.packt.webstore.repository.OrderRepository;
 import com.packt.webstore.service.CartService;
 import org.springframework.beans.factory.annotation.Autowired;

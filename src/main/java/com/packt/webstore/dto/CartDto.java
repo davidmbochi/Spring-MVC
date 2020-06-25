@@ -1,7 +1,5 @@
 package com.packt.webstore.dto;
 
-import com.packt.webstore.Domain.CartItem;
-
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;

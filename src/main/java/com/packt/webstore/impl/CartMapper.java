@@ -1,8 +1,7 @@
 package com.packt.webstore.impl;
 
-import com.packt.webstore.Domain.Cart;
-import com.packt.webstore.Domain.CartItem;
-import com.packt.webstore.impl.CartItemMapper;
+import com.packt.webstore.domain.Cart;
+import com.packt.webstore.domain.CartItem;
 import com.packt.webstore.service.ProductService;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;

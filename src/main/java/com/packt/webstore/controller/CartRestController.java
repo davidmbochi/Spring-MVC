@@ -1,6 +1,6 @@
 package com.packt.webstore.controller;
 
-import com.packt.webstore.Domain.Cart;
+import com.packt.webstore.domain.Cart;
 import com.packt.webstore.dto.CartDto;
 import com.packt.webstore.service.CartService;
 import org.springframework.beans.factory.annotation.Autowired;

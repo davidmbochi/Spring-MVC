@@ -3,7 +3,7 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.springframework.org/schema/webflow http://www.springframework.org/schema/webflow/spring-webflow-2.4.xsd">
 
-    <var name="order" class="com.packt.webstore.Domain.Order"/>
+    <var name="order" class="com.packt.webstore.domain.Order"/>
     <action-state id="addCartToOrder">
         <evaluate expression="cartServiceImpl.validate(requestParameters.cartId)" result="order.cart" />
         <transition to="invalidCartWarning"
