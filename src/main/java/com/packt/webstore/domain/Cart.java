@@ -52,6 +52,11 @@ public class Cart implements Serializable {
                 .reduce(BigDecimal.ZERO,BigDecimal::add);
         this.setGrandTotal(grandTotal);
     }
+
+    public static long getSerialVersionUID() {
+        return serialVersionUID;
+    }
+
     @Override
     public int hashCode() {
         final int prime = 31;

@@ -49,6 +49,9 @@ public class ShippingDetail implements Serializable {
         this.shippingAddress = shippingAddress;
     }
 
+
+
+
     @Override
     public int hashCode() {
         final int prime=31;

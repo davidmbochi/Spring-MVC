@@ -153,6 +153,7 @@ public class Product implements Serializable {
         this.productManual = productManual;
     }
 
+
     @Override
     public boolean equals(Object obj) {
         if(this == obj){

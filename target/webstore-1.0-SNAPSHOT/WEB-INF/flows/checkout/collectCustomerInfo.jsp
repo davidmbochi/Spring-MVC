@@ -32,7 +32,8 @@
     </div>
 </section>
 <section class="container">
-    <form:form modelAttribute="order.customer" class="form-horizontal">
+
+    <form:form modelAttribute="order.customer"  class="form-horizontal">
         <fieldset>
             <legend>Customer Details</legend>
             <div class="form-group">

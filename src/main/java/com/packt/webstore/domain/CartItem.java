@@ -46,6 +46,10 @@ public class CartItem implements Serializable {
         return totalPrice;
     }
 
+    public static long getSerialVersionUID() {
+        return serialVersionUID;
+    }
+
     public void setTotalPrice(BigDecimal totalPrice) {
         this.totalPrice = totalPrice;
     }

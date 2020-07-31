@@ -71,6 +71,10 @@ public class Address implements Serializable {
         return serialVersionUID;
     }
 
+    public void setId(Long id) {
+        this.id = id;
+    }
+
     @Override
     public int hashCode() {
         final int prime=31;
